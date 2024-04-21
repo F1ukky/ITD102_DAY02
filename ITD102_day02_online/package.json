@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "GoMez",
+  "author": "Pisit",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
