@@ -1,19 +1,15 @@
 module.exports = (sequelize, dataType) => {
-    const Employee = sequelize.define('employee', {
+    const Setting = sequelize.define('setting', {
         id:{
             type: dataType.INTEGER,
             autoIncrement: true,
             allowNull: false,
             primaryKey: true
         },
-        name:{
-            type: dataType.STRING,
-            allowNull: false
-        },
-        position:{
+        theme:{
             type: dataType.STRING,
             allowNull: false
         }
     });
-    return Employee;
+    return Setting;
 };
